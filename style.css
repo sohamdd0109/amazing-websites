@@ -1,0 +1,96 @@
+html,body {
+    background-color: coral;
+    text-align: center;
+    cursor:url('cur330.cur'), auto;
+    cursor:url('cur330.cur'), pointer;
+}
+
+
+
+.page {
+    text-align: center;
+    color:rgb(63, 26, 33);
+    cursor: auto;
+    cursor:url('cur330.cur'), auto;
+}
+
+.page h1{
+    cursor: auto;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor:url('cur330.cur'), auto;
+
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor:url('cur330.cur'), auto;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor:url('cur330.cur'), auto;
+
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 255, 255);
+    cursor:url('cur330.cur'), auto;
+
+  }
+
+  ::-webkit-scrollbar{
+    width: 9px;
+    height: 9px;
+    }
+    ::-webkit-scrollbar-thumb{
+    background: #FF99FF;
+    border: 2.5px dashed #FF0000;
+    border-radius: 0px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+    background: #FF00FF;
+    }
+    ::-webkit-scrollbar-track{
+    background: #F0F0F0;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+    }
+
+    .b1 {
+      box-shadow: 5px 5px 0px 0px #004f94;
+      background-color:transparent;
+      border-radius:19px;
+      border:1px solid #2372c2;
+      display:inline-block;
+      cursor:pointer;
+      color:#940094;
+      font-family:Georgia;
+      font-size:28px;
+      font-weight:bold;
+      font-style:italic;
+      padding:24px 33px;
+      text-decoration:none;
+      text-shadow:15px 6px 15px #0f87ff;
+      cursor:url('cur330.cur'), auto;
+    }
+    .b1:hover {
+      background-color:transparent;
+      cursor:url('cur330.cur'), auto;
+    }
+    .b1:active {
+      position:relative;
+      top:1px;
+      cursor:url('cur330.cur'), auto;
+    }
+    
+            
